@@ -1,19 +1,22 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <header></header>
+
+
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
-
-export default {
+<!--import test from './components/test'-->
+<!--export default {
   name: 'app',
   components: {
     Hello
   }
-}
+}-->
+
+import Hello from './components/header'
+
 </script>
 
 <style>
